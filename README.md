@@ -1,11 +1,10 @@
-<img src="./assets/images/logo/logo_main.png" height=100px weidth= 100px>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YugantM/lazyos/main/assets/images/logo/logo_main.png" height="120px"><br>
+  <b>LazyOS</b> · Powered by Ayo 🧠<br>
+  <i>Your local-first assistant for flow, focus, and digital freedom.</i>
+</p>
+<hr>
 
-✨ Local-first personal operating layer for your digital life. 🧠 Powered by Ayo, the smart assistant that adapts to your habits, organizes your flow, and kills your tedious tasks.
-
-
-# LazyOS · Powered by Ayo 🧠
-
-> Your local-first, behavior-aware personal operating system layer.
 
 LazyOS is a lightweight, cross-platform smart assistant that learns your habits, automates your daily workflows, manages browser clutter, and keeps your system clean — all while respecting your privacy.
 
