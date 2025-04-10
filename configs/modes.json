@@ -1,18 +1,31 @@
 {
     "work": {
-      "apps": ["Visual Studio Code"],
-      "tabs": ["https://github.com", "https://gmail.com"],
-      "comment": "For focused development sessions"
+        "apps": [
+            "Spotify",
+            "Visual Studio Code"
+        ],
+        "tabs": [
+            "https://github.com",
+            "https://gmail.com"
+        ],
+        "comment": "For focused development sessions"
     },
     "learn": {
-      "apps": ["Obsidian"],
-      "tabs": ["https://www.youtube.com", "https://arxiv.org"],
-      "comment": "For reading, videos, and note-taking"
+        "apps": [],
+        "tabs": [
+            "https://www.youtube.com",
+            "https://arxiv.org"
+        ],
+        "comment": "For reading, videos, and note-taking"
     },
     "chill": {
-      "apps": ["Spotify"],
-      "tabs": ["https://reddit.com", "https://www.netflix.com"],
-      "comment": "Relax and unwind"
+        "apps": [
+            "Spotify"
+        ],
+        "tabs": [
+            "https://reddit.com",
+            "https://www.netflix.com"
+        ],
+        "comment": "Relax and unwind"
     }
-  }
-  
+}
