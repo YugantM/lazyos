@@ -1,31 +1,82 @@
 {
-    "work": {
-        "apps": [
-            "Spotify",
-            "Visual Studio Code"
-        ],
-        "tabs": [
-            "https://github.com",
-            "https://gmail.com"
-        ],
-        "comment": "For focused development sessions"
-    },
-    "learn": {
-        "apps": [],
-        "tabs": [
-            "https://www.youtube.com",
-            "https://arxiv.org"
-        ],
-        "comment": "For reading, videos, and note-taking"
-    },
-    "chill": {
-        "apps": [
-            "Spotify"
-        ],
-        "tabs": [
-            "https://reddit.com",
-            "https://www.netflix.com"
-        ],
-        "comment": "Relax and unwind"
-    }
+  "work": {
+    "apps": [
+      "Spotify",
+      "Visual Studio Code"
+    ],
+    "tabs": [
+      "https://github.com",
+      "https://gmail.com"
+    ],
+    "comment": "For focused development sessions"
+  },
+  "learn": {
+    "apps": [],
+    "tabs": [
+      "https://www.youtube.com",
+      "https://arxiv.org"
+    ],
+    "comment": "For reading, videos, and note-taking"
+  },
+  "chill": {
+    "apps": [
+      "Spotify"
+    ],
+    "tabs": [
+      "https://reddit.com",
+      "https://www.netflix.com"
+    ],
+    "comment": "Relax and unwind"
+  },
+  "work_mail": {
+    "apps": [],
+    "tabs": [
+      "https://mail.google.com/mail/u/0/#inbox"
+    ],
+    "comment": "Auto-generated work mode for evening usage. Most active around 08:00 PM. Top sites: mail.google.com (1 visits)."
+  },
+  "work_www": {
+    "apps": [],
+    "tabs": [
+      "http://www.mozilla.com/en-US/firefox/help/",
+      "https://www.youtube.com/",
+      "https://arxiv.org/",
+      "https://chatgpt.com/c/6834c7df-07d0-8001-be43-1a91b6b6c634",
+      "https://chat.openai.com/"
+    ],
+    "comment": "Auto-generated work mode for evening usage. Most active around 07:00 PM. Top sites: www.linkedin.com (107 visits), accounts.google.com (82 visits), www.desideutsche.com (73 visits)."
+  },
+  "social_evening": {
+    "apps": [],
+    "tabs": [
+      "https://gmail.com/",
+      "https://mail.google.com/mail/u/0/",
+      "https://github.com/",
+      "https://chatgpt.com/",
+      "https://chatgpt.com/g/g-p-682384eced048191add2acb21d933a0f-desideutsche/project"
+    ],
+    "comment": "Auto-generated social mode for evening usage. Most active around 05:00 PM. Top sites: lookerstudio.google.com (7 visits), www.desideutsche.com (6 visits), github.com (6 visits)."
+  },
+  "social_afternoon": {
+    "apps": [],
+    "tabs": [
+      "https://samsung-shop.spectos.com/de/ticket/status/67a79b3e65e6ea7b55b0d00d/415d2cb01fa40107372a88cc96376ec8",
+      "https://id.sonyentertainmentnetwork.com/id/management_ca/?gated=true&pr_referer=cam&ui=pr&entry=psn_profile&cid=f852e5ba-9f9d-4611-a665-664cd2925cfc#/p/privacy_settings?cid=f852e5ba-9f9d-4611-a665-664cd2925cfc&entry=psn_profile&state=cam_75909a463a29ccc2946aae6ea1b3b3c5",
+      "https://id.sonyentertainmentnetwork.com/id/management_ca/?gated=true&pr_referer=cam&ui=pr&entry=psn_profile&cid=f852e5ba-9f9d-4611-a665-664cd2925cfc#/p/auth_apps_management?cid=f852e5ba-9f9d-4611-a665-664cd2925cfc&entry=psn_profile&state=cam_75909a463a29ccc2946aae6ea1b3b3c5",
+      "https://id.sonyentertainmentnetwork.com/id/management_ca/?gated=true&pr_referer=cam&ui=pr&entry=psn_profile&cid=f852e5ba-9f9d-4611-a665-664cd2925cfc#/p/link_service?cid=f852e5ba-9f9d-4611-a665-664cd2925cfc&entry=psn_profile&state=cam_75909a463a29ccc2946aae6ea1b3b3c5",
+      "https://id.sonyentertainmentnetwork.com/id/management_ca/?gated=true&pr_referer=cam&ui=pr&entry=psn_profile&cid=f852e5ba-9f9d-4611-a665-664cd2925cfc#/p/link_service/benefit/link?cid=f852e5ba-9f9d-4611-a665-664cd2925cfc&entry=psn_profile&state=cam_75909a463a29ccc2946aae6ea1b3b3c5"
+    ],
+    "comment": "Auto-generated social mode for afternoon usage. Most active around 05:00 PM. Top sites: www.desideutsche.com (86 visits), www.google.com (73 visits), www.instagram.com (70 visits)."
+  },
+  "learning_www": {
+    "apps": [],
+    "tabs": [
+      "https://docs.google.com/spreadsheets/d/1Js-Mc-I7VYhB4Hve30I7E1IEZ-Y293YooIL_VxCODJ8/edit?gid=0#gid=0",
+      "https://www.google.com/search?q=billionaires+by+industry+over+the+time&rlz=1C5CHFA_enDE1070DE1070&oq=billionaires+by+industry+over+the+time&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRiPAtIBCDgyNDlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8",
+      "https://www.google.com/maps/dir//KickFit+Academy,+Ernst-Ruska-Ring+12,+07745+Jena/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x47a6a93aa70f5e87:0x46cc3b59348ff481?sa=X&ved=1t:57443&ictx=111",
+      "https://www.google.com/maps/dir/50.8987193,11.5781341/KickFit+Academy,+Ernst-Ruska-Ring+12,+07745+Jena/@50.8883045,11.5671033,14z/data=!4m10!4m9!1m1!4e1!1m5!1m1!1s0x47a6a93aa70f5e87:0x46cc3b59348ff481!2m2!1d11.5950335!2d50.8942651!3e3?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D",
+      "https://www.google.com/maps/dir/50.8987193,11.5781341/KickFit+Academy,+Ernst-Ruska-Ring+12,+07745+Jena/@50.8883045,11.5671033,14z/data=!3m1!5s0x47a6aed5334b8d5f:0xd9d0a1ec2336f817!4m10!4m9!1m1!4e1!1m5!1m1!1s0x47a6a93aa70f5e87:0x46cc3b59348ff481!2m2!1d11.5950335!2d50.8942651!3e3?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D"
+    ],
+    "comment": "Auto-generated learning mode for morning usage. Most active around 09:00 AM. Top sites: www.google.com (71 visits), www.deepl.com (38 visits), www.amazon.de (28 visits)."
+  }
 }

@@ -4,8 +4,16 @@ import platform
 import subprocess
 import webbrowser
 import datetime
-from core.logger import log_launch
+import sys
+from pathlib import Path
 
+# Add the project root directory to Python path
+project_root = str(Path(__file__).parent.parent)
+if project_root not in sys.path:
+    sys.path.append(project_root)
+
+from core.logger import log_launch
+from core.browser_analyzer import BrowserAnalyzer
 
 # Paths
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), '..', 'configs', 'modes.json')
@@ -13,11 +21,27 @@ LOG_PATH = os.path.join(os.path.dirname(__file__), '..', 'logs', 'launch.log')
 
 # Load all modes from config file
 def load_modes():
+    """Load all modes from config file."""
     with open(CONFIG_PATH, 'r') as f:
         return json.load(f)
 
+def update_modes():
+    """Update modes based on browser analysis."""
+    analyzer = BrowserAnalyzer()
+    history_df = analyzer.get_browser_history(days=30)
+    
+    if not history_df.empty:
+        processed_df = analyzer.preprocess_data(history_df)
+        clustered_df = analyzer.cluster_tabs(processed_df)
+        modes = analyzer.generate_modes(clustered_df)
+        analyzer.update_modes_json(modes, CONFIG_PATH)
+        print("✅ Modes updated successfully!")
+    else:
+        print("⚠️ No browser history data found")
+
 # Launch mode: open apps and browser tabs
 def launch_mode(mode_name):
+    """Launch mode: open apps and browser tabs."""
     modes = load_modes()
     if mode_name not in modes:
         print(f"❌ Mode '{mode_name}' not found in config.")
@@ -53,3 +77,12 @@ def launch_mode(mode_name):
 
     # Log launch
     log_launch(mode_name, apps, tabs)
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        if sys.argv[1] == "--update":
+            update_modes()
+        else:
+            launch_mode(sys.argv[1])
+    else:
+        print("Usage: python launcher.py [mode_name|--update]")

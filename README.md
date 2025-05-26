@@ -23,7 +23,35 @@ LazyOS is a lightweight, cross-platform smart assistant that learns your habits,
 
 ## 🚀 Getting Started
 
-Coming soon.
+1. **Installation**  
+   Clone the repository and install dependencies:
+   ```bash
+   git clone https://github.com/YugantM/lazyos.git
+   cd lazyos
+   pip install -r requirements.txt
+   ```
+
+2. **Configuration**  
+   Define your modes in `configs/modes.json`. Example:
+   ```json
+   {
+     "work": {
+       "apps": ["Safari", "Terminal"],
+       "tabs": ["https://github.com", "https://stackoverflow.com"],
+       "comment": "Work mode for coding"
+     }
+   }
+   ```
+
+3. **Usage**  
+   Run the launcher with:
+   ```bash
+   python core/launcher.py work
+   ```
+
+## 🤝 Contributing
+
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) and submit pull requests or report issues on our [Issue Tracker](https://github.com/YugantM/lazyos/issues).
 
 ## 🛡️ Philosophy
 
